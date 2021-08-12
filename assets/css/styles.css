@@ -5,6 +5,15 @@ p{
     font-family: 'Montserrat', sans-serif
 }
 
+/* FUNCION HEADER */
+
+.fixed-header {
+    background-color: #ffff;
+    transition: all 0.3s ease;
+}
+
+
+
 /* INICIO HEADER */
 header {
     width: 100%;
@@ -16,13 +25,6 @@ header {
 
 }
 
-header::after {
-    background-color: white;
-    -webkit-transition: heigth 0.3s;
-    -moz-transition: heigth 0.3s;
-    transition: heigth 0.3s;
-
-}
 
 
 
@@ -132,7 +134,7 @@ header ul li a{
 
 .a-info{
     
-    width: 50%;
+    width: 0;
 }
 
 .sub-sub {
