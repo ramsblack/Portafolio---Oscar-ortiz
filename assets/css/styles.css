@@ -5,7 +5,7 @@ p{
     font-family: 'Montserrat', sans-serif
 }
 
-/* FUNCION HEADER */
+/* FUNCTION HEADER */
 
 .fixed-header {
     background-color: #ffff;
@@ -134,19 +134,22 @@ header ul li a{
 
 .a-info{
     
-    width: 0;
+    width: 50%;
 }
 
 .sub-sub {
     height: 2rem;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-family: "Montserrat", sans-serif;
+    padding-bottom: 1rem;
+}
 
-
+.text-about{
+    padding-top: 1rem;
 }
 
 .about-title{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-family: "Roboto";
     font-weight: 900;
     padding-bottom: 3rem;
@@ -173,9 +176,9 @@ header ul li a{
 
 }
 
-.text-about {
+.aqua-about {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
      -webkit-text-stroke: 1px rgba(238, 238, 238, 0.7);  
      font-family: "Roboto";
