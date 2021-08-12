@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Roboto:wght@500;900&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*, 
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.sigla a {
+    /* color: #0000; */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* HELPER */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5rem;
+
+}
+

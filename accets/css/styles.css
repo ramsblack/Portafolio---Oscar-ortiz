@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Roboto:wght@500;900&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+p{
+    font-family: 'Montserrat', sans-serif
+}
+
+/* INICIO HEADER */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 0;
+    background-color: transparent;
+
+}
+
+header::after {
+    background-color: white;
+    -webkit-transition: heigth 0.3s;
+    -moz-transition: heigth 0.3s;
+    transition: heigth 0.3s;
+
+}
+
+
+
+header .sigla a{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header ul li {
+    text-align: center;
+}
+
+header ul li a{
+    color: black;
+}
+
+
+/* FIN HEADER */
+
+.main-section{
+    height: 100vh;
+    /* width: 100vh; */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 5%;
+}
+
+.fondo{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(180, 184, 151, 0.2);
+    display: flex;   
+}
+
+.imagen{
+    width: 100px;
+    background-color: teal;
+}
+
+.title {
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 5rem;
+    /* background-color: brown; */
+    
+
+}
+
+.sub-title{
+    font-family: "montserrat";
+    font-size: 1.5rem;
+    font-weight: 200;
+    
+}
+
+.name {
+    -webkit-text-stroke: 2px #787A91;  
+    color: transparent;
+}
+
+.section-about{
+    height: 100vh;
+    /* width: 100vh; */
+    background-size: cover;
+     display: flex; 
+    align-items: center;
+    justify-content: start;
+    margin-left: 5%; 
+
+}
+
+.about{
+    height: 100vh;
+    /* width: 100vh; */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 5%;
+
+    position: relative;
+    padding: 5rem;
+    /* padding-bottom: 20rem; */
+    
+}
+
+.container-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.img-about{
+    width: 40%;
+
+
+}
+
+.img-about img{
+    max-width: 100%;
+}
+
+.a-info{
+    
+    width: 50%;
+}
+
+.sub-sub {
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.about-title{
+    font-size: 1.5rem;
+    font-family: "Roboto";
+    font-weight: 900;
+    padding-bottom: 3rem;
+}
+
+.a-info p {
+    padding-bottom: 2rem;
+}
+
+.about-buton .learn-more{
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border: 1px solid #000;
+
+}
+
+.learn-more:hover{
+    transition: 0.5s ease;
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+    
+
+}
+
+.text-about {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+     -webkit-text-stroke: 1px rgba(238, 238, 238, 0.7);  
+     font-family: "Roboto";
+     font-size: 10rem;
+     font-weight: 500;
+     color: transparent;
+
+
+
+}
